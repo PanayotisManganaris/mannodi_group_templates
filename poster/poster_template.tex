@@ -1,0 +1,70 @@
+% Intended LaTeX compiler: pdflatex
+% Begin Preamble
+\documentclass[final, t]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{exscale}
+\usepackage[orientation=landscape,size=custom,width=135.46667,height=101.6,scale=1.5]{beamerposter}
+\institute[Mannodi Group]{\inst{1} Purdue Materials Science and Engineering Mannodi Group}
+\mode<presentation>{\usetheme{Warsaw}}
+
+\author{Dr. Arun Mannodi-Kannakithodi\inst{1}}
+\author{Jiaqi Yang\inst{1}}
+\author{David E. Farache\inst{1}}
+\author{Panayotis T. Manganaris\inst{1}}
+\date{\today}
+\title[Short Title]{\Huge Long Title}
+\hypersetup{
+  pdfauthor={Panayotis Manganaris\inst{1}},
+  pdftitle={Long Title},
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 27.2 (Org mode 9.5)}, 
+  pdflang={English}}
+% End Preamble
+
+\begin{document} 
+%it's just one giant slide, sequential column arrangement is generated as content is added
+\begin{frame}{} 
+  \begin{columns}[t]
+    \begin{column}{0.3\linewidth}
+      \begin{block}{Intro}
+        \begin{itemize}
+        \item One
+        \item Two
+        \item Three
+        \item Four       
+        \end{itemize}
+      \end{block}
+
+      \begin{block}{mid third frame block}
+        Woooo?
+        \begin{enumerate}
+        \item Bang
+        \item Boom
+        \item Pow
+        \item Ratatat
+        \end{enumerate}
+      \end{block}
+
+      \begin{example}[of lists] 
+        \begin{description}
+        \item[{itemize}] bulleted items
+        \item[{enumerate}] number items
+        \item[{description}] titled items
+        \end{description}
+      \end{example}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}
