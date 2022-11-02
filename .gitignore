@@ -1,7 +1,7 @@
-/beamer_template.aux
-/beamer_template.dvi
-/beamer_template.log
-/beamer_template.nav
-/beamer_template.out
-/beamer_template.snm
-/beamer_template.toc
+**/*.aux
+**/*.dvi
+**/*.log
+**/*.nav
+**/*.out
+**/*.snm
+**/*.toc
