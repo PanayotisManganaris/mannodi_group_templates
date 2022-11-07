@@ -61,30 +61,16 @@
 \defbeamertemplate*{footline}{purduesplit theme}
 {%
   \leavevmode%
-  \hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fill,rightskip=.3cm]{author in head/foot}%
-    \usebeamerfont{author in head/foot}\insertshortauthor
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
-    \usebeamerfont{title in head/foot}\insertshorttitle\nobreak\hfill\usebeamercolor[fg]{page number in head/foot}\usebeamerfont{page number in head/foot}\usebeamertemplate{page number in head/foot}
-  \end{beamercolorbox}}%
-  \vskip0pt%
-}
-
-\defbeamertemplate*{footline}{infolines theme}
-{
-  \leavevmode%
   \hbox{%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=3.5ex,dp=1ex,left]{section in head/foot}%
-    \usebeamerfont{section in head/foot}
-%\vspace*{-3px}~\includegraphics[width=.15\paperwidth]{LittleP.png}~\hspace*{2ex}
-\vspace*{-3px}~\includegraphics[width=.10\paperwidth]{PurdueUniversity.png}~\hspace*{2ex}
-%\vspace*{2px}\insertshortinstitute
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=3.5ex,dp=1ex,center]{title in head/foot}%
-    \usebeamerfont{title in head/foot}\vspace*{2px}\insertshortauthor
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=3.5ex,dp=1ex,right]{date in head/foot}%
-    \usebeamerfont{date in head/foot}\vspace*{2px}\insertshortdate{}\hspace*{2em}
-    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
-  \end{beamercolorbox}}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fill,rightskip=.3cm]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertshortauthor
+      %\vspace*{-3px}~\includegraphics[width=.15\paperwidth]{LittleP.png}~\hspace*{2ex}
+      \vspace*{-3px}~\includegraphics[width=.10\paperwidth]{PurdueUniversity.png}~\hspace*{2ex}
+      %\vspace*{2px}\insertshortinstitute
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      \usebeamerfont{title in head/foot}\insertshorttitle\nobreak\hfill\usebeamercolor[fg]{page number in head/foot}\usebeamerfont{page number in head/foot}\usebeamertemplate{page number in head/foot}
+    \end{beamercolorbox}
+  }%
+  \vskip0pt%
 }
