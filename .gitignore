@@ -5,3 +5,5 @@
 **/*.out
 **/*.snm
 **/*.toc
+/Signature_Logo/
+/__MACOSX/
